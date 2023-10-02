@@ -1,8 +1,14 @@
+import Button from "../Button/Button";
+import css from "./StatusFilter.module.css";
 const StatusFilter = () => {
   return (
     <>
       {" "}
-      <div>StatusFilter</div>
+      <div className={css.wrapper}>
+        <Button>All</Button>
+        <Button>Active</Button>
+        <Button>Completed</Button>
+      </div>
     </>
   );
 };
