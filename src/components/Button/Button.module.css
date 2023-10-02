@@ -1,0 +1,10 @@
+.btn {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #e2e5e8;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: aqua;
+}

@@ -1,0 +1,7 @@
+.layout {
+  display: grid;
+  gap: 16px;
+  max-width: auto;
+  margin: 0 auto;
+  padding: 16px;
+}
