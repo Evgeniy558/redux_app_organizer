@@ -1,8 +1,10 @@
 import css from "./Button.module.css";
-const Button = ({ children }) => {
+const Button = ({ children, type }) => {
   return (
     <>
-      <button className={css.btn}>{children}</button>
+      <button className={css.btn} type={type}>
+        {children}
+      </button>
     </>
   );
 };
