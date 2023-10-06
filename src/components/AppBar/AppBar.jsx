@@ -6,7 +6,6 @@ const AppBar = () => {
   return (
     <>
       <header className={css.header}>
-        {" "}
         <section className={css.wrapper}>
           <h2>Tasks</h2>
           <TaskCounter taskActive={0} taskCompleted={0}></TaskCounter>
