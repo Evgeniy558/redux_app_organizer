@@ -1,5 +1,4 @@
-import { devToolsEnhancer } from "@redux-devtools/extension";
-import { combineReducers, createStore } from "redux";
+import { combineReducers } from "redux";
 import { statusFilter } from "./constants";
 
 const tasksInitialState = [
